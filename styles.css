@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 1.5;
+}
+
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background-color: #1f2937;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header p {
+    margin: 32px;
+    padding: 55px;
+    background-color: grey;
+    font-size: small;
+    width: 430px;
+    height: 160px;
+    height: 100%;
+}
+
+.navbar a {
+    color: rgb(170, 162, 162);
+    text-decoration: none;
+    font-size: 14px
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #fff;
+    height: 300px;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1px;
+    line-height: 1.2;
+}
+
+.header p1 {
+    font-size: 12px;
+    color: #E5e7eb
+}
+
+.header img {
+    width: 400px
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    max-width: 20px;
+}
+
+.single .container {
+    background-color: #E5e7eb;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+    padding: 90px;
+    width: 1100px;
+}
+
+.inspiration p {
+    display: flex;
+    justify-content: end;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: ;
+}
+
+.up .container {
+    background-color: #3882f6;
+    color: #fff;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.up .container p {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .product {
+    display: flex;
+}
+
+.top .container {
+    background-color: #1f2937;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
